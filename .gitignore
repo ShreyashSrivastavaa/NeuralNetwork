@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large model binaries & local checkpoints
+*.keras
+*.h5
+*.joblib
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,43 @@
+{
+  "chosen_decision_threshold": 0.9534435868263245,
+  "prevalence": 0.14933333333333335,
+  "baseline_model": {
+    "accuracy": 0.9986666666666667,
+    "precision": 1.0,
+    "recall": 0.9910714285714286,
+    "f1": 0.9955156950672646,
+    "roc_auc": 1.0,
+    "pr_auc": 0.9999999999999999,
+    "threshold": 0.8533162556981193
+  },
+  "neural_network_model": {
+    "accuracy": 0.9973333333333333,
+    "precision": 1.0,
+    "recall": 0.9821428571428571,
+    "f1": 0.990990990990991,
+    "roc_auc": 1.0,
+    "pr_auc": 0.9999999999999999,
+    "threshold": 0.9534435868263245
+  },
+  "confusion_matrix_baseline": [
+    [
+      638,
+      0
+    ],
+    [
+      1,
+      111
+    ]
+  ],
+  "confusion_matrix_neural_network": [
+    [
+      638,
+      0
+    ],
+    [
+      2,
+      110
+    ]
+  ],
+  "verdict": "Baseline (TF-IDF + Logistic Regression) wins or matches closely. Due to strong keyword indicators (e.g. promo links, bot text tokens), linear decision boundaries combined with balanced class weights provide slightly superior precision with lower computational complexity."
+}
